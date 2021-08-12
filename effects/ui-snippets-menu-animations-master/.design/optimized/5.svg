@@ -1,0 +1,5 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <path class="line--1" d="M0 40h65c7 0 17 10 25 10h15c4.7 0 11.7-3.3 21-10l14-10"/>
+  <path class="line--2" d="M0 50h105"/>
+  <path class="line--3" d="M0 60h65c7 0 17-10 25-10h15c4.7 0 11.7 3.3 21 10l14 10"/>
+</svg>

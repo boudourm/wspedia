@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+	<head >
+		<meta charset = "UTF-8" />
+		<title>Conception d'une SOA | SOA</title>
+		<link rel=stylesheet href="../style/main.css">
+		<link rel=stylesheet href="../style/menu_vertical.css">
+		<link rel=stylesheet href="../style/positions.css">
+		<link rel=stylesheet href="../style/images.css">
+		<link rel=stylesheet href="../style/syntax.css">
+		<link rel=stylesheet href="../style/page.css">
+		<link rel=stylesheet href="../style/header_footer.css">
+		<script src="../js/images.js"></script>
+        <script src="../js/syntax.js"></script>
+        <style>
+            nav#menu-vertical ul li input#togglecheck2:checked + ul 
+            {height: 250px;}
+			nav#menu-vertical ul li input#togglecheck3:checked + ul ,
+			nav#menu-vertical ul li input#togglecheck1:checked + ul 
+            {height: 100px;}
+        </style>
+	</head>
+	
+	<body onload="allhighlights(0);imagesEffect(1)">
+		<header id = "mainheader">
+			<!--============================================================
+									HEADER
+			==============================================================-->
+					<!--to contain it in the middle-->
+					<div class="container" >
+						<div id="branding">
+							<h1><a href="../index.html""><span class = "hightlight">WS</span>Pedia</a></h1>
+						</div>	
+						<nav>
+							<ul>
+								<li  ><a href = "../index.html">Accueil</a></li>
+								<li class = "current" ><a href = "soa.html">SOA</a></li>
+								<li><a href = "esb/esb.html">ESB</a></li>
+								<li><a href = "ws/ws.html">WS</a></li>
+							</ul>
+						</nav>
+					</div> 
+			<!--============================================================
+								/HEADER
+			==============================================================-->		
+					</header>
+
+		<nav id = "menu-vertical">
+				<a href="soa.html" title="">
+					<div >
+							<img src="../images/soaico.png">
+							<span>SOA</span>
+					</div>
+				</a>
+				<ul >
+					<li>
+						<div >						
+							<label for="togglecheck1">
+								<span >&#9654;</span>
+							<!-- <span class="toggleicon iconcheck">&#9660;</span> -->	
+							</label>
+							<a href="soa11.html">
+								<div >
+									<span>Notions liés à SOA</span>
+								</div>			
+							</a>		
+						</div>
+						<input id="togglecheck1" type="checkbox" name="togglecheck1" checked />
+						<ul >
+							<li><a href="soa11.html"><div >Concepts</div></a></li>
+							<li><a href="soa12.html"><div >Service</div></a></li>
+							<li><a href="soa13.html"><div >Annuaire de services</div></a></li>
+						</ul>
+					</li>
+					<li>
+						<div >						
+							<label for="togglecheck2">
+								<span >&#9654;</span>
+							<!-- <span class="toggleicon iconcheck">&#9660;</span> -->	
+							</label>
+							<a href="soa2.html">
+								<div >
+									<span>Conception d'une SOA </span>
+								</div>			
+							</a>		
+						</div>
+						<input id="togglecheck2" type="checkbox" name="togglecheck2" checked />
+						<ul >
+							<li><a href="soa21.html"><div >Contrat standard</div></a></li>
+							<li><a href="soa22.html"><div >Couplage faible</div></a></li>
+							<li><a href="soa23.html"><div >Services abstraits</div></a></li>
+							<li><a href="soa24.html"><div >Services réutilisables</div></a></li>
+							<li><a href="soa25.html"><div >Services autonomes</div></a></li>
+							<li><a href="soa26.html"><div >Services sans état</div></a></li>
+							<li><a href="soa27.html"><div >Découvrabilité</div></a></li>
+							<li><a href="soa28.html"><div >Composabilité</div></a></li>
+						</ul>
+					</li>
+					<li>
+						<div >						
+							<label for="togglecheck3">
+								<span >&#9654;</span>
+							<!-- <span class="toggleicon iconcheck">&#9660;</span> -->	
+							</label>
+							<a href="soa31.html">
+								<div >
+									<span>Implémentations SOA</span>
+								</div>			
+							</a>		
+						</div>
+						<input id="togglecheck3" type="checkbox" name="togglecheck3" checked />
+						<ul >
+							<li><a href="soa31.html"><div >Bus de service</div></a></li>
+							<li><a href="soa32.html"><div >WOA (Web-oriented architecture)</div></a></li>
+						</ul>
+					</li>
+					<li>
+						<div >						
+							<label for="togglecheck7">
+								<span >&#9654;</span>
+							<!-- <span class="toggleicon iconcheck">&#9660;</span> -->	
+							</label>
+							<a href="quizz.html">
+								<div >
+										<span>QUIZZ</span>
+								</div>			
+							</a>		
+						</div>
+					</li>
+				</ul>
+			</nav>
+
+		<main>
+			<!--Article = sousTitre -->
+			<article>
+				<!--Titre du Soutitre-->
+				<header>
+					<h2>
+						Conception d'une SOA 
+						<img src = "../images/redbox.png" style="height: 15px; width:200px;">
+					</h2>
+				</header>
+				<!--/Titre du Soutitre-->
+
+                <!--P-->
+				<p>
+					&emsp;Les applications SOA sont généralement développées sous la direction d'un modèle de 
+					référence SOA. Le but de ce modèle est de définir l'essence de l'Architecture Orientée 
+					Services, et de retirer un vocabulaire et une compréhension commune de la SOA. Il fournit
+					une référence normative qui reste pertinente de la SOA comme un modèle abstrait et puissant, 
+					quelles que soient les diverses et inévitables évolutions technologiques qui influencent 
+					le déploiement. 
+                </p>
+				<!--/P-->
+				<img id="myImg1" 
+					 class="myImg" 
+					 src="../images/servicegeneral.png" 
+					 alt="Service abstraction" >
+				<!-- The Modal -->
+				<div id="myModal1" class="modal">
+					<span class="close">×</span>
+					<img class="modal-content" id="img01">
+					<div id="caption1" class="caption"></div>
+				</div>
+				<!--/IMAGE-->
+				<!--P-->
+				<p>
+					&emsp;Le modèle divise les flux du processus en groupes logiques appelés couches
+					et définit une architecture en couches ce qui permet de bâtir des application SOA réussies 
+					et largement utilisées. 
+                </p>
+				<!--/P-->
+				<p>
+						Les caractéristiques les plus distinctives de la SOA sont : 
+				</p>
+				<!--/P-->
+				<!--TABLE-->
+				<table >
+					<tr>
+						<th>Principe </th>
+						<th>Description </th>
+					</tr>
+					<tr>
+						<td>Faible couplage </td>
+						<td>Il faut favoriser le couplage faible entre les services c.-à-d. minimiser les 
+							interactions et les dépendances entre les services. 
+						</td>
+					</tr>
+					<tr>
+						<td>Abstraction </td>
+						<td>Il faut faire abstraire la partie logique du service, ses fonctionnalités doivent 
+							être exposées uniquement via son contrat. 
+						</td>
+					</tr>
+					<tr>
+						<td>Réutilisation </td>
+						<td>Un service doit être facilement réutilisable dans un contexte ou 
+							projet différent</td>
+					</tr>
+					<tr>
+						<td>Autonomie </td>
+						<td>Un service doit avoir un périmètre fonctionnel distinct et un contrôle 
+							fort sur ses fonctionnalités. </td>
+					</tr>
+					<tr>
+					 	<td>Composabilité </td>
+						<td>Un service doit être conçu avec des mécanismes qui lui permettent 
+							de participer facilement à des compositions de services. </td>
+					</tr>
+					<tr>
+						<td>Sans état </td>
+						<td>Pour maintenir un couplage faible, les services ne gardent pas des informations 
+							d’état spécifiques à une activité ou la trace de ses invocations. </td>
+					</tr>
+					<tr>
+						<td>Découvrabilité </td>
+						<td>Un service doit être complété par un descripteur qui est publié dans l’annuaire au travers lequel il peut 
+							être découvert et interprété de manière efficace. </td>
+					</tr>
+					<tr>
+						<td>Contrat </td>
+						<td>L’interaction entre les services a besoin de partager uniquement un contrat formel qui décrit les services 
+							interagissant et les termes des informations échangées. </td>
+					</tr>
+					<tr>
+						<td>Cohésion</td>
+						<td>La cohésion estime la difficulté de comprendre les relations entre les différents services et 
+							entre les opérations d’un même service. Dans un système orienté service, il faut maintenir 
+							une forte cohésion. </td>
+					</tr>
+					<tr>
+						<td>Granularité</td>
+						<td>La granularité d’un service définit le nombre de fonctionnalités encapsulées par ce service. 
+							Un service doit avoir une granularité optimale. </td>
+					</tr>
+				</table>
+				<!--/TABLE-->
+				<!--Remarque-->
+				<aside style="margin-top:28px;" class="remarque">
+						<h3><span>&#9888;</span><i>&emsp;Remarque</i></h3>
+						<p>
+								la connaissance et la prise en compte de c'est caractéristiques sont 
+								indispensabele à la conception d'une architecture SOA fiable et exploité 
+								au maximum son potentiel.
+						</p>
+					</aside>
+				<!--/Remarque-->
+				
+			</article>
+			<!--/Article-->
+		</main>
+
+		<footer id="mainfooter" class="principal">
+						<p> <span>Mehdi & A</span> Inc. , Copyright &copy; 2019 All Rights Reserved 2017</p>
+		</footer>
+		
+	</body>
+</html>

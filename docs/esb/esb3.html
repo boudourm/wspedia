@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+	<head >
+		<meta charset = "UTF-8" />
+		<title>ESB | Qu’est-ce qu’un ESB ?</title>
+		<link rel=stylesheet href="../../style/main.css">
+		<link rel=stylesheet href="../../style/header_footer.css">
+		<link rel=stylesheet href="../../style/menu_vertical.css">
+		<link rel=stylesheet href="../../style/positions.css">
+		<link rel=stylesheet href="../../style/menu_horizontal.css">
+		<link rel=stylesheet href="../../style/images.css">
+		<link rel=stylesheet href="../../style/syntax.css">
+		<link rel=stylesheet href="../../style/page.css">
+		<script src="../../js/images.js"></script>
+		<script src="../../js/syntax.js"></script>
+		<style>
+				nav#menu-vertical > ul > li > div > a > div > span {font-size:140%;}
+				nav#menu-vertical  ul li ul li a div
+				{font-size:130%; padding-top: 4px ;padding-bottom:4px;}
+			</style>
+	</head>
+	
+	<body onload="imagesEffect(2)">
+		<header id = "mainheader">
+			
+<!--============================================================
+						HEADER
+==============================================================-->
+		<!--to contain it in the middle-->
+		<div class="container" >
+			<div id="branding">
+				<h1><a href="#"><span class = "hightlight">WS</span>Pedia</a></h1>
+			</div>	
+			<nav>
+				<ul>
+					<li  ><a href = "../../index.html">Accueil</a></li>
+					<li ><a href = "../soa.html">SOA</a></li>
+					<li class = "current" ><a href = "esb.html">ESB</a></li>
+					<li><a href = "../ws/ws.html">WS</a></li>
+				</ul>
+			</nav>
+		</div> 
+<!--============================================================
+					/HEADER
+==============================================================-->		
+			
+		</header>
+
+		<nav id = "menu-vertical">
+				<a href="esb.html" title="">
+						<div >
+								<img src="../../images/esb.png">
+								<span>ESB</span>
+						</div>
+					</a>
+			<ul style="font-size:80%">
+				<li>
+					<div >						
+						<label for="togglecheck2">
+							<span >&#9654;</span>
+						<!-- <span class="toggleicon iconcheck">&#9660;</span> -->	
+						</label>
+						<a href="esb2.html">
+							<div >
+								<span>Applications distribuées</span>
+							</div>			
+						</a>		
+					</div>
+					
+				</li>
+				<li>
+					<div >						
+						<label for="togglecheck3">
+							<span >&#9654;</span>
+						<!-- <span class="toggleicon iconcheck">&#9660;</span> -->	
+						</label>
+						<a href="#">
+							<div >
+								<span>Qu’est-ce qu’un ESB ?</span>
+							</div>			
+						</a>		
+					</div>
+				</li>
+				<li>
+					<div >						
+						<label for="togglecheck4">
+							<span >&#9654;</span>
+						<!-- <span class="toggleicon iconcheck">&#9660;</span> -->	
+						</label>
+						<a href="esb4.html">
+							<div >
+								<span>Architecture d’un ESB</span>
+							</div>			
+						</a>		
+					</div>
+				</li>
+				<li>
+						<div >						
+								<label for="togglecheck5">
+									<span >&#9654;</span>
+								<!-- <span class="toggleicon iconcheck">&#9660;</span> -->	
+								</label>
+								<a href="esb5_1.html">
+									<div >
+										<span>Fonctionnalités d’un ESB </span>
+									</div>			
+								</a>		
+							</div>
+							<input id="togglecheck5" type="checkbox" name="togglecheck5" checked />
+							<ul>
+									<li><a href="esb5_1.html"><div >Connectivité</div></a></li>
+									<li><a href="esb5_2.html"><div >Routage</div></a></li>
+									<li><a href="esb5_3.html"><div >Médiation</div></a></li>
+									<li><a href="esb5_4.html"><div >Exposition de Services </div></a></li>
+									<li><a href="esb5_5.html"><div >Agrégation de Services</div></a></li>
+									<li><a href="esb5_6.html"><div >Traitements d'Evènements</div></a></li>
+							</ul>
+					</li>
+				<li>
+					<div >						
+						<label for="togglecheck6">
+							<span >&#9654;</span>
+						<!-- <span class="toggleicon iconcheck">&#9660;</span> -->	
+						</label>
+						<a href="esb6.html">
+							<div >
+									<span>Pourquoi Un ESB ?</span>
+							</div>			
+						</a>		
+					</div>
+				</li>
+				<li>
+						<div >						
+							<label for="togglecheck7">
+								<span >&#9654;</span>
+							<!-- <span class="toggleicon iconcheck">&#9660;</span> -->	
+							</label>
+							<a href="quizz.html">
+								<div >
+										<span>QUIZZ</span>
+								</div>			
+							</a>		
+						</div>
+					</li>
+			</ul>
+		</nav>
+
+		<main>
+			<article>
+				<header>
+					<h2>
+						Qu’est-ce qu’un ESB ?
+						<img src = "../../images/redbox.png" style="height: 15px; width:200px;">
+					</h2>
+				</header>
+				<hr>
+				<p>
+					Le terme Enterprise Service Bus (ESB) étant à l'origine inventé par des analystes de Gartner Inc. en 2002 ; il combine entre les middlewares traditionnels de messages et plusieurs technologies telles que les Web Services et XML .
+					L’ESB représente une infrastructure de middleware qui fournit un moyen pour intégrer des applications logicielles hétérogènes et faiblement couplées en se basant sur le principe des services. Il assure la communication et l’échange des messages dans une plate-forme SOA et permet d’interconnecter tous les services requis sans compromettre la sécurité, la fiabilité, la performance et la scalabilité.
+				</p>
+
+				<!--IMAGE-->
+				<img id="myImg1" 
+					 class="myImg" 
+					 src="../../images/enterprise-service-bus.jpg" 
+					 alt="L'Entreprise Service Bus" >
+				<!-- The Modal -->
+				<div id="myModal1" class="modal">
+					<span class="close">×</span>
+					<img class="modal-content" id="img01">
+					<div id="caption1" class="caption"></div>
+				</div>
+				<!--/IMAGE-->
+
+				<p>
+					L'avantage principal d'un ESB réside dans le fait qu’il réduit le nombre de connexions point-à-point, en fournissant une couche d’abstraction au-dessus de l’implémentation du système. Le consommateur et le fournisseur de services dans un ESB n’interagissent pas directement l’un avec l’autre, ils communiquent via le bus de message qui supporte plusieurs protocoles comme l’UDP et l’http.	
+				</p>
+				<!--IMAGE-->
+				<img id="myImg2" 
+					 class="myImg" 
+					 src="../../images/esbetpointapoint.png" 
+					 alt="ESB VS Intégration point-à-point" >
+				<!-- The Modal -->
+				<div id="myModal2" class="modal">
+					<span class="close">×</span>
+					<img class="modal-content" id="img02">
+					<div id="caption2" class="caption"></div>
+				</div>
+				<!--/IMAGE-->
+			</article>
+		</main>
+
+		<footer id="mainfooter" class="principal">
+			<p> <span>Mehdi & A</span> Inc. , Copyright &copy; 2019 All Rights Reserved</p>	
+		</footer>
+		
+	</body>
+</html>

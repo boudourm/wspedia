@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+	<head >
+		<meta charset = "UTF-8" />
+		<title>Concepts | SOA</title>
+		<link rel=stylesheet href="../style/main.css">
+		<link rel=stylesheet href="../style/menu_vertical.css">
+		<link rel=stylesheet href="../style/positions.css">
+		<link rel=stylesheet href="../style/images.css">
+		<link rel=stylesheet href="../style/syntax.css">
+		<link rel=stylesheet href="../style/page.css">
+		<link rel=stylesheet href="../style/header_footer.css">
+		<script src="../js/images.js"></script>
+        <script src="../js/syntax.js"></script>
+        <style>
+            nav#menu-vertical ul li input#togglecheck2:checked + ul 
+            {height: 250px;}
+			nav#menu-vertical ul li input#togglecheck3:checked + ul ,
+			nav#menu-vertical ul li input#togglecheck1:checked + ul 
+            {height: 100px;}
+        </style>
+	</head>
+	
+	<body onload="allhighlights(0);imagesEffect(1)">
+		<header id = "mainheader">
+			<!--============================================================
+									HEADER
+			==============================================================-->
+					<!--to contain it in the middle-->
+					<div class="container" >
+						<div id="branding">
+							<h1><a href="../index.html""><span class = "hightlight">WS</span>Pedia</a></h1>
+						</div>	
+						<nav>
+							<ul>
+								<li  ><a href = "../index.html">Accueil</a></li>
+								<li class = "current" ><a href = "soa.html">SOA</a></li>
+								<li><a href = "esb/esb.html">ESB</a></li>
+								<li><a href = "ws/ws.html">WS</a></li>
+							</ul>
+						</nav>
+					</div> 
+			<!--============================================================
+								/HEADER
+			==============================================================-->		
+					</header>
+
+		<nav id = "menu-vertical">
+				<a href="soa.html" title="">
+					<div >
+							<img src="../images/soaico.png">
+							<span>SOA</span>
+					</div>
+				</a>
+				<ul >
+					<li>
+						<div >						
+							<label for="togglecheck1">
+								<span >&#9654;</span>
+							<!-- <span class="toggleicon iconcheck">&#9660;</span> -->	
+							</label>
+							<a href="soa11.html">
+								<div >
+									<span>Notions liés à SOA</span>
+								</div>			
+							</a>		
+						</div>
+						<input id="togglecheck1" type="checkbox" name="togglecheck1" checked />
+						<ul >
+							<li><a href="soa11.html"><div >Concepts</div></a></li>
+							<li><a href="soa12.html"><div >Service</div></a></li>
+							<li><a href="soa13.html"><div >Annuaire de services</div></a></li>
+						</ul>
+					</li>
+					<li>
+						<div >						
+							<label for="togglecheck2">
+								<span >&#9654;</span>
+							<!-- <span class="toggleicon iconcheck">&#9660;</span> -->	
+							</label>
+							<a href="soa2.html">
+								<div >
+									<span>Conception d'une SOA </span>
+								</div>			
+							</a>		
+						</div>
+						<input id="togglecheck2" type="checkbox" name="togglecheck2" checked />
+						<ul >
+							<li><a href="soa21.html"><div >Contrat standard</div></a></li>
+							<li><a href="soa22.html"><div >Couplage faible</div></a></li>
+							<li><a href="soa23.html"><div >Services abstraits</div></a></li>
+							<li><a href="soa24.html"><div >Services réutilisables</div></a></li>
+							<li><a href="soa25.html"><div >Services autonomes</div></a></li>
+							<li><a href="soa26.html"><div >Services sans état</div></a></li>
+							<li><a href="soa27.html"><div >Découvrabilité</div></a></li>
+							<li><a href="soa28.html"><div >Composabilité</div></a></li>
+						</ul>
+					</li>
+					<li>
+						<div >						
+							<label for="togglecheck3">
+								<span >&#9654;</span>
+							<!-- <span class="toggleicon iconcheck">&#9660;</span> -->	
+							</label>
+							<a href="soa31.html">
+								<div >
+									<span>Implémentations SOA</span>
+								</div>			
+							</a>		
+						</div>
+						<input id="togglecheck3" type="checkbox" name="togglecheck3" checked />
+						<ul >
+							<li><a href="soa31.html"><div >Bus de service</div></a></li>
+							<li><a href="soa32.html"><div >WOA (Web-oriented architecture)</div></a></li>
+						</ul>
+					</li>
+					<li>
+						<div >						
+							<label for="togglecheck7">
+								<span >&#9654;</span>
+							<!-- <span class="toggleicon iconcheck">&#9660;</span> -->	
+							</label>
+							<a href="quizz.html">
+								<div >
+										<span>QUIZZ</span>
+								</div>			
+							</a>		
+						</div>
+					</li>
+				</ul>
+			</nav>
+
+		<main>
+			<!--Article = sousTitre -->
+			<article>
+				<!--Titre du Soutitre-->
+				<header>
+					<h2>
+                        Concepts
+						<img src = "../images/redbox.png" style="height: 15px; width:200px;">
+					</h2>
+				</header>
+				<!--/Titre du Soutitre-->
+
+                <!--P-->
+					<p>
+                            &emsp;
+                            Une architecture orientée service se conforme à divers principes de gestion des 
+                            services influençant directement le comportement intrinsèque d’une solution 
+                            logicielle et le style de sa conception :
+                    </p>
+                <!--/P-->
+
+                <!--UL-->
+					<ul>
+                        <li>L’encapsulation des services.
+                        <li>Le faible couplage des services avec la maintenance d’une relation réduisant les dépendances.
+                        <li>Le contrat de service adhère à un accord de communication, collectivement défini avec un ou plusieurs documents de description.
+                        <li>L’abstraction des services dissimulant la logique du service à l’extérieur.
+                        <li>La réutilisation des services partageant la logique entre plusieurs services avec l’intention de promouvoir la réutilisation.
+                        <li>La composition des services.
+                        <li>L’autonomie des services.
+                        <li>L’optimisation des services.
+                        <li>La découverte des services depuis leur description extérieure.
+                    </ul>
+                <!--/UL-->
+
+                <!--IMAGE-->
+				<img id="myImg1" 
+					 class="myImg" 
+					 src="../images/conpectssoa.jpg" 
+					 alt="Concepts des SOA">
+				<!-- The Modal -->
+				<div id="myModal1" class="modal">
+					<span class="close">×</span>
+					<img class="modal-content" id="img01">
+					<div id="caption1" class="caption"></div>
+				</div>
+                <!--/IMAGE-->
+
+                <!--P-->
+					<p>
+                        &emsp;L’architecture orientée service représente un moyen technique d’intégration 
+                        des divers systèmes d’information de l’entreprise considérant chaque ressource 
+                        informatique comme un service.
+                    </p>
+                <!--/P-->
+
+                <!--Remarque-->
+					<aside class="remarque">
+                            <h3><span>&#9888;</span><i>&emsp;Remarque</i></h3>
+                            <p>
+                                SOA permet de construire les buildings blocks qui composeront l'urbanisme du 
+                                système d'information.
+                            </p>
+                    </aside>
+                <!--/Remarque-->
+
+                <!--P-->
+					<p>
+                            &emsp;La notion d’<strong>interface</strong> est importante dans l’approche orientée service. En effet,
+                             elle représente le point d’entrée unique vers les fonctionnalités de la solution 
+                             logicielle et assure la communication grâce à l’échange de messages. Chaque message 
+                             est porteur de la sémantique particulière à la solution logicielle.
+                        </p>
+                    <!--/P-->
+                <!--INFOSUP-->
+				<aside class="infosup">
+						<h3><span>&#9960;</span><i>&emsp;Information Suplémentaire</i></h3>
+						<p>
+                            Ce message est rédigé dans un langage compréhensible aux deux parties en présence. 
+                            Les services proposés d’une architecture agile décrivent la structure des messages 
+                            qu’ils attendent du client.
+						</p>
+					</aside>
+                <!--/INFOSUP-->	
+                <!--P-->
+					<p>
+                        &emsp;L’architecture orientée service est une solution logicielle distribuée. 
+                        Elle propose un mécanisme d’échange de messages sécurisé entre les systèmes 
+                        d’informations sous-jacents en employant des protocoles de communication standardisés. 
+                        Cette approche offre à l’architecture une opportunité d’ouverture sur un large éventail 
+                        de solutions logicielles existantes.
+                        </p>
+                    <!--/P-->
+			</article>
+			<!--/Article-->
+		</main>
+
+		<footer id="mainfooter" class="principal">
+						<p> <span>Mehdi & A</span> Inc. , Copyright &copy; 2019 All Rights Reserved 2017</p>
+		</footer>
+		
+	</body>
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+	<head >
+		<meta charset = "UTF-8" />
+		<title>ESB </title>
+		<link rel=stylesheet href="../../style/main.css">
+		<link rel=stylesheet href="../../style/header_footer.css">
+		<link rel=stylesheet href="../../style/menu_vertical.css">
+		<link rel=stylesheet href="../../style/positions.css">
+		<link rel=stylesheet href="../../style/menu_horizontal.css">
+		<link rel=stylesheet href="../../style/images.css">
+		<link rel=stylesheet href="../../style/syntax.css">
+		<link rel=stylesheet href="../../style/page.css">
+		<link rel=stylesheet href="../../style/quizz.css">
+		<script src="../../js/images.js"></script>
+		<script src="../../js/syntax.js"></script>
+		<script src="../../js/quizz.js"></script>
+		<style>
+				nav#menu-vertical ul li input#togglecheck5:checked + ul 
+				{height: 30%;}
+			</style>
+	</head>
+	
+	<body onload="imagesEffect(1)">
+		<header id = "mainheader">
+			
+<!--============================================================
+						HEADER
+==============================================================-->
+<header>
+		<!--to contain it in the middle-->
+		<div class="container" >
+			<div id="branding">
+				<h1><a href="#"><span class = "hightlight">WS</span>Pedia</a></h1>
+			</div>	
+			<nav>
+				<ul>
+					<li  ><a href = "../../index.html">Accueil</a></li>
+					<li ><a href = "../soa.html">SOA</a></li>
+					<li class = "current" ><a href = "esb.html">ESB</a></li>
+					<li><a href = "../ws/ws.html">WS</a></li>
+				</ul>
+			</nav>
+		</div> 
+	 </header>
+<!--============================================================
+					/HEADER
+==============================================================-->
+		
+		</header>
+
+		<nav id = "menu-vertical">
+				<a href="esb.html" title="">
+						<div >
+								<img src="../../images/esb.png">
+								<span>ESB</span>
+						</div>
+					</a>
+			<ul style="font-size:80%">
+				<li>
+					<div >						
+						<label for="togglecheck2">
+							<span >&#9654;</span>
+						<!-- <span class="toggleicon iconcheck">&#9660;</span> -->	
+						</label>
+						<a href="esb2.html">
+							<div >
+								<span>Applications distribuées</span>
+							</div>			
+						</a>		
+					</div>
+					
+				</li>
+				<li>
+					<div >						
+						<label for="togglecheck3">
+							<span >&#9654;</span>
+						<!-- <span class="toggleicon iconcheck">&#9660;</span> -->	
+						</label>
+						<a href="esb3.html">
+							<div >
+								<span>Qu’est-ce qu’un ESB ?</span>
+							</div>			
+						</a>		
+					</div>
+				</li>
+				<li>
+					<div >						
+						<label for="togglecheck4">
+							<span >&#9654;</span>
+						<!-- <span class="toggleicon iconcheck">&#9660;</span> -->	
+						</label>
+						<a href="esb4.html">
+							<div >
+								<span>Architecture d’un ESB</span>
+							</div>			
+						</a>		
+					</div>
+				</li>
+				<li>
+						<div >						
+								<label for="togglecheck5">
+									<span >&#9654;</span>
+								<!-- <span class="toggleicon iconcheck">&#9660;</span> -->	
+								</label>
+								<a href="esb5_1.html">
+									<div >
+										<span>Fonctionnalités d’un ESB </span>
+									</div>			
+								</a>		
+							</div>
+							<input id="togglecheck5" type="checkbox" name="togglecheck5" checked />
+							<ul>
+									<li><a href="esb5_1.html"><div >Connectivité</div></a></li>
+									<li><a href="esb5_2.html"><div >Routage</div></a></li>
+									<li><a href="esb5_3.html"><div >Médiation</div></a></li>
+									<li><a href="esb5_4.html"><div >Exposition de Services </div></a></li>
+									<li><a href="esb5_5.html"><div >Agrégation de Services</div></a></li>
+									<li><a href="esb5_6.html"><div >Traitements d'Evènements</div></a></li>
+							</ul>
+					</li>
+				<li>
+					<div >						
+						<label for="togglecheck6">
+							<span >&#9654;</span>
+						<!-- <span class="toggleicon iconcheck">&#9660;</span> -->	
+						</label>
+						<a href="esb6.html">
+							<div >
+									<span>Pourquoi Un ESB ?</span>
+							</div>			
+						</a>		
+					</div>
+				</li>
+				<li>
+						<div >						
+							<label for="togglecheck7">
+								<span >&#9654;</span>
+							<!-- <span class="toggleicon iconcheck">&#9660;</span> -->	
+							</label>
+							<a href="quizz.html">
+								<div >
+										<span>QUIZZ</span>
+								</div>			
+							</a>		
+						</div>
+					</li>
+			</ul>
+		</nav>
+
+		<main id="quizzm">
+			<article id="quizza">
+				<header>
+					<h2>
+						 QUIZZ
+						<img src = "../../images/redbox.png" style="height: 15px; width:200px;">
+					</h2>
+				</header>
+				<hr>
+			
+			</article>
+			<form id = "quiz" name = "quiz">
+					<div id = "after_submit">
+						<p id = "message"></p>
+					</div>
+					<h3>Question 1</h3>	
+					<p>Quelle est la différence entre une SOA et un ESB ?</p>
+					<img src="../../images/nocheck.png" alt = "nocheck">
+					<input type = "radio" name = "question1" value ="1"> 
+					<label >Aucune, c'est la même chose</label><br>
+					<img src="../../images/check.png" alt = "check">
+					<input type = "radio" name = "question1" value ="2"> 
+					<label class="correct">L'ESB est une maniére pour l'implémentation de la SOA</label><hr>
+		
+					<h3>Question 2</h3>	
+					<p>Avec un ESB :</p>
+					<img src="../../images/nocheck.png" alt = "nocheck">
+					<input type = "radio" name = "question2" value ="1"> 
+					<label> Le consommateur et le fournisseur de services interagissent directement l’un avec l’autre.</label><br>
+					<img src="../../images/check.png" alt = "check">
+					<input type = "radio" name = "question2" value ="2"> 
+					<label class="correct"> Le consommateur et le fournisseur de services n’interagissent pas directement l’un avec l’autre.</label><br>
+					<img src="../../images/nocheck.png" alt = "nocheck">
+					<input type = "radio" name = "question2" value ="3"> 
+					<label>Le consommateur et le fournisseur de services n'interagissent pas du tout l’un avec l’autre.</label><hr>
+		
+					<h3>Question 3</h3>	
+					<p >Qu'est ce qu'on veut dire par routage ?</p>
+					<img src="../../images/nocheck.png" alt = "nocheck">
+					<input type = "radio" name = "question3" value ="1"> 
+					<label >Relier ensemble plusieurs types de données, d'applications, de protocoles et de plateformes.</label><br>
+					<img src="../../images/check.png" alt = "check">
+					<input type = "radio" name = "question3" value ="2"> 
+					<label class="correct">Acheminer les messages du fournisseur au consommateur et vice-versa.</label><br>
+					<br>
+					<div id="bouton"><input id = "button" type = "button" value = "Valider" onclick = "check();"></div>
+				<br>	
+				</form>
+					
+		</main>
+
+		<footer id="mainfooter" class="principal">
+			
+					<p>Mehdi & A Inc. , Copyright &copy; 2019 <br> All Rights Reserved</p>	
+		
+		</footer>
+		
+	</body>
+</html>

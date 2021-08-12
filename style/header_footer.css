@@ -1,0 +1,151 @@
+
+/* width */
+body ::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+body ::-webkit-scrollbar-track {
+    background:#022b3d ; 
+}
+ 
+/* Handle */
+body ::-webkit-scrollbar-thumb {
+    background: rgb(6, 206, 179); 
+}
+
+/* Handle on hover */
+body ::-webkit-scrollbar-thumb:hover {
+    background: rgb(54, 175, 159); 
+}
+
+/*============================================================
+							HEADER
+    ==============================================================*/
+    .container
+	{
+		/*relative width*/
+		width: 80%;
+		/*Container moved to the middle*/
+		margin:auto; 
+		overflow:hidden;
+	}
+
+	header#mainheader
+	{
+        margin: 0;
+		background: #35424a;
+		color: #ffffff;
+		padding-top: 30px;
+		min-height:70px;
+        border-bottom:3px solid #239079  ;
+        font-family: Arial, Helvetica, sans-serif;
+		
+	}
+
+    header#mainheader a 
+	{
+		color: #ffffff;
+		text-decoration:none;
+		text-transform:uppercase;
+		font-size:16px;
+	}
+
+    header#mainheader li
+	{
+		float:left;
+		display:inline;	
+		/*padding: top right bottom left*/
+		padding:0px 19px 12px 19px ;
+	
+	}
+    header#mainheader nav li a 
+	{
+		font-size: 160%;
+	}
+
+    header#mainheader #branding a
+	{
+			float:left;
+			font-size:  150%;
+	}
+
+    header#mainheader #branding h1
+	{
+        /*padding: top right bottom left*/
+		padding-top:4px ;
+		margin:0;
+	}
+    header#mainheader nav 
+	{
+		float:right;
+        margin-top:10px;
+        font-size:95%;
+	}  
+
+    header#mainheader .hightlight , 
+    header#mainheader .current a 
+	{
+		color:#00a8f3;
+		font-weight:bold;	
+	}
+
+    header#mainheader a:hover 
+	{
+		color:#cccccc;
+		font-weight:bold;
+	}
+/*============================================================
+						/HEADER
+==============================================================*/
+
+
+/*============================================================
+						FOOTER
+==============================================================*/
+footer#mainfooter
+{
+	border:none;
+	margin: 0;
+	padding:20px;
+	color:#ffffff;
+	background-color:#35424a;
+	text-align: center;
+	font-family:Arial, Helvetica, sans-serif;;
+	font-size:120% ;
+}
+footer#mainfooter span
+{
+	color:#00a8f3;
+	font-weight:bold;
+}
+
+/*============================================================
+						/FOOTER
+==============================================================*/
+
+/*============================================================
+						MEDIA QUERIES
+==============================================================*/
+@media(max-width: 768px)
+{
+
+	header#mainheader #branding ,
+	header#mainheader nav ,
+	header#mainheader nav li
+		{
+			float:none;
+			text-align:center;
+			width:100%;
+		}
+		
+		header#mainheader 
+		{
+			padding-bottom :20px;
+		}
+
+
+}
+/*============================================================
+						/MEDIA QUERIES
+==============================================================*/

@@ -1,0 +1,57 @@
+main div * {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+main div body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+/* Style tab links */
+main div .tablink {
+  background-color: rgb(22, 83, 83);
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 180%;
+  font-weight:bold;
+  width: 33.33333333%;
+}
+
+main div .tablink:hover {
+  background-color: rgb(131, 165, 148);
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+main div .tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+  font-size:130%;
+}
+
+main div #SOA {background-color: rgb(30, 168, 192);}
+main div #ESB {background-color: rgb(127, 204, 56);}
+main div #WS {background-color: rgb(16, 180, 104);}
+
+main div #boxes
+{
+	margin-top:20px;
+}
+
+main div #boxes .box 
+{
+	float:left;
+	text-align: center;
+	width:30%;
+	padding:10px;
+}
+
+main div #boxes .box img
+{
+	width:90px;  
+}

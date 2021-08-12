@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<meta charset = "utf-8" />
+		<title>WSPedia | Bienvenu</title>
+		<link rel="stylesheet" href="style/home.css" />
+		<link rel=stylesheet href="style/tabs.css">
+		<link rel=stylesheet href="style/page.css">
+		<link rel=stylesheet href="style/gallery.css" !important>
+		<script src="js/gallery.js">
+			var slideIndex = 1;
+		</script>
+		<script src="js/tabs.js">
+		</script>
+	</head>
+	
+
+	
+	<body>
+<!--============================================================
+						HEADER
+==============================================================-->
+		 <header>
+			<!--to contain it in the middle-->
+			<div class="container" >
+				<div id="branding">
+					<h1><a href="index.html"><span class = "hightlight">WS</span>Pedia</a></h1>
+				</div>	
+				<nav>
+					<ul>
+						<li class = "current" ><a href = "home.html">Accueil</a></li>
+						<li><a href = "docs/soa.html">SOA</a></li>
+						<li><a href = "docs/esb/esb.html">ESB</a></li>
+						<li><a href = "docs/ws/ws.html">WS</a></li>
+					</ul>
+				</nav>
+			</div> 
+		 </header>
+<!--============================================================
+						/HEADER
+==============================================================-->
+
+
+
+<!--============================================================
+						SHOWCASE
+==============================================================-->		 
+		 <section id = "showcase">
+			<!--to contain it in the middle-->
+			<div class = "container">
+				<h1>Tutoriaux gratuit SOA, ESB et WS </h1>
+				<p>
+				   Enrichisser vos connaissances en suivant nos tuto gratuit afin 
+				   comprendre et maitriser les technologies standards
+				   du WEB qui régissent les entreprises d'aujourd'hui.
+				</p>
+			</div>
+		 </section>
+<!--============================================================
+						/SHOWCASE
+==============================================================-->
+
+
+
+<!--============================================================
+						NEWSLETTER
+==============================================================-->		 
+		 <section id = "newsletter">
+			<div class = "container">
+				<h1>RESTONS EN CONTACT</h1>
+				<form>
+					<input type = "email" placeholder = "Enter Email..." >
+					<button type = "submit" class = "button_1">Subscribe</button>
+				</form>
+			</div>
+		 </section>
+<!--============================================================
+						/NEWSLETTER
+==============================================================-->
+
+
+
+<!--============================================================
+						BOXES
+==============================================================-->		 
+		 <section id = "boxes">
+			<div class = "container">
+				<div class = "box">
+					<img src = "images/wsico.png" > 
+					<h3>Web Services</h3>
+					<p>Les services Web peuvent convertir vos applications
+						 existantes en applications Web.</p>
+				</div>
+
+			
+
+				<div class = "box">
+				<img src = "images/soaico.png" > 
+					<h3>Architechture Orientée Service</h3>
+					<p>Fédérant plusieurs technologies avancées, l'architecture SOA promet 
+						une évolution majeure dans la conception des système d'informations.</p>
+				</div>
+
+			
+			
+				<div class = "box">
+					<img src = "images/esbico.png"> 
+					<h3>Entreprise Service Bus</h3>
+					<p>Améliore la qualité des données et de fluidifier les transferts, automatise les flux,
+					   optimise les processus métiers, garantit la qualité des données .</p>
+				</div>
+			</div>	
+		 </section>
+<!--============================================================
+						BOXES
+==============================================================-->
+<main>
+
+<hr>
+<div class="gallery" >
+		<div class="mySlides" style="display:block;">
+		  <div class="numbertext">1 / 6</div>
+		  <img src="images/wspediaslideshow.png" style="width:100%">
+		</div>
+	  
+		<div class="mySlides">
+		  <div class="numbertext">2 / 6</div>
+		  <img src="images/soaslideshowfinal.png" style="width:100%">
+		</div>
+	  
+		<div class="mySlides">
+		  <div class="numbertext">3 / 6</div>
+		  <img src="images/esbslideshow.png" style="width:100%">
+		</div>
+		  
+		<div class="mySlides">
+		  <div class="numbertext">4 / 6</div>
+		  <img src="images/wsslideshow.png" style="width:100%">
+		</div>
+	  
+		<div class="mySlides">
+		  <div class="numbertext">5 / 6</div>
+		  <img src="images/codesnippetslideshow.png" style="width:100%">
+		</div>
+		  
+		<div class="mySlides">
+		  <div class="numbertext">6 / 6</div>
+		  <img src="images/quizzslideshow.png" style="width:100%">
+		</div>
+		  
+		<a class="prev" onclick="plusSlides(-1);">❮</a>
+		<a class="next" onclick="plusSlides(1);">❯</a>
+	  
+		
+	  
+		<div class="row">
+		  <div class="column">
+			<img class="demo cursor" src="images/wspediaslideshow.png" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+		  </div>
+		  <div class="column">
+			<img class="demo cursor" src="images/soaslideshowfinal.png" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+		  </div>
+		  <div class="column">
+			<img class="demo cursor" src="images/esbslideshow.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+		  </div>
+		  <div class="column">
+			<img class="demo cursor" src="images/wsslideshow.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+		  </div>
+		  <div class="column">
+			<img class="demo cursor" src="images/codesnippetslideshow.png" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+		  </div>    
+		  <div class="column">
+			<img class="demo cursor" src="images/quizzslideshow.png" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+		  </div>
+		</div>
+</div>
+<hr>
+<div>
+		<button id="defaultOpen" class="tablink" onclick="openPage('SOA', this, 'rgb(30, 168, 192)')">SOA</button>
+		<button class="tablink" onclick="openPage('ESB', this, 'rgb(127, 204, 56)')" >ESB</button>
+		<button class="tablink" onclick="openPage('WS', this, 'rgb(16, 180, 104)')">WS</button>
+		
+		<div id="SOA" class="tabcontent">
+		  <h3>Architechture Orientée Service</h3>
+		  <p>Découvrez les avantages de l'architecture orientée services et de la structure 
+			  des applications orientées services dans l'extrait de ce chapitre, 
+			  qui convient aux lecteurs professionnels et techniques.</p>
+		</div>
+		
+		<div id="ESB" class="tabcontent">
+		  <h3>Entreprise Service Bus</h3>
+		  <p>
+			  Depuis son apparition, l’Enterprise Service Bus ou ESB est devenu l'une des 
+			  principales approches qui permettent la mise en oeuvre d'une Architecture Orientée 
+			  Services, il représente une plate-forme d'intégration dédiée aux environnements 
+			  distribués et hétérogènes et, qui assure le routage et la transformation des 
+			  messages entre des services.
+			</p> 
+		</div>
+		
+		<div id="WS" class="tabcontent">
+		  <h3>Web Services</h3>
+		  <p>Le Web est de plus en plus utilisé pour la communication entre applications. 
+			  Les interfaces de programmation mises à disposition sur le Web pour la 
+			  communication entre applications sont souvent appelées services Web. De nombreux
+			   types d’applications peuvent être considérés comme des services Web, mais 
+			   l’interopérabilité entre les applications est renforcée principalement par 
+			   l’utilisation de technologies connues telles que XML et HTTP. 
+		  </p>
+		</div>
+</div>
+<script>
+		// Get the element with id="defaultOpen" and click on it
+		document.getElementById("defaultOpen").click();
+		plusSlides(1);
+</script>
+</main>
+<!--============================================================
+						FOOTER
+==============================================================-->		
+		<footer >
+			<p> <span>Mehdi & A</span> Inc. , Copyright &copy; 2019 All Rights Reserved </p>	
+		</footer>
+<!--============================================================
+						/FOOTER
+==============================================================-->
+		</body>	
+</html>
